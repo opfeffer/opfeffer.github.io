@@ -1,0 +1,48 @@
+{
+	"knowledge": [
+		{
+			"title": "iOS",
+			"skills": ["Objective-C", "Auto-Layout", "CoreData", "working on Swift"]
+		},
+		{
+			"title": "Client-side",
+			"skills": ["HTML5", "CSS3", "Sass", "JavaScript", "gulp.js", "Bootstrap", "jQuery"]
+		},
+		{
+			"title": "Server-side",
+			"skills": ["NodeJS", "PHP", "MySQL", "a little Java"]
+		},
+		{
+			"title": "Tools",
+			"skills": ["Xcode", "Sublime Text", "Git/SVN", "Things", "and Slack"]
+		},
+		{
+			"title": "Speaking Languages",
+			"skills": ["German", "English", "and I also had Spanish and French in school"]
+		}
+	],
+	"experience": [
+		{
+			"name": "QVC Second Screen",
+			"desc": "Engaging users beyond their first screen."
+		},
+		{
+			"name": "QVC Facebook Chat",
+			"desc": "Enabling users to communicate seemlessly."
+		},
+		{
+			"name": "QVC Heromagic",
+			"desc": "Providing easy access to product imagery."
+		},
+		{
+			"name": "QVC Recipe Management",
+			"desc": "Improving they way recipes are created and set up."
+		}
+	],
+	"contact": {
+		"email": "mailto:oliver.pfeffer@gmail.com",
+		"twitter": "http://twitter.com/oliverpfeffer",
+		"linkedin": "http://linkedin.com/in/oliverpfeffer/",
+		"github": "http://github.com/opfeffer"
+	}
+}

@@ -1,0 +1,41 @@
+<div class="header">
+	<h1>Oliver Pfeffer</h1>
+	<h3>Husband, Father, iOS and Front-End Developer</h3>
+</div>
+
+{{#if knowledge}}
+<div class="section">
+	<h2>Knowledge</h2>
+
+	<dl>
+		{{#each knowledge}}
+		<dd>{{title}}</dd>
+		<dt>{{flatten skills}}</dt>
+		{{/each}}
+	</dl>
+</div>
+{{/if}}
+
+{{#if experience}}
+<div class="section">
+	<h2>Experience</h2>
+
+	<dl>
+		{{#each experience}}
+		<dd>{{name}}</dd>
+		<dt>{{desc}}</dt>
+		{{/each}}
+	</dl>
+</div>
+{{/if}}
+
+
+{{#if contact}}
+<div class="section">
+	<h2>Contact</h2>
+	
+	{{#each contact}}
+	<a href="{{this}}" target="_blank">{{@key}}</a>
+	{{/each}}
+</div>
+{{/if}}

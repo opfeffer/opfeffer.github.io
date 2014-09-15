@@ -1,0 +1,57 @@
+$headlineColor: #222;
+$copyColor: #777;
+$dividerColor: #ccc;
+
+body {
+	font: 1em 'Helvetica Neue', Arial, sans-serif;
+	color: $headlineColor;
+}
+
+h1, h2, h3, dl {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin: 0 0 15px;
+}
+
+h3 {
+	font: {
+		weight: normal;
+		style: italic;
+		size: .9em;
+	}
+	color: $copyColor;
+}
+
+#wrapper {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 40px 25px;
+}
+
+.section {
+	border-top: 1px solid $dividerColor;
+	padding: 40px 25px;
+}
+
+dd {
+	font-weight: bold;
+	margin: 15px 0 0;
+	padding: 0;
+}
+
+dt {
+	color: $copyColor;
+}
+
+a, a:visited, a:active {
+	text-transform: capitalize;;
+	color: $headlineColor;
+	font-weight: bold;
+	padding: 0 15px 0 0;
+}

@@ -1,4 +1,1 @@
-opfeffer.github.io
-==================
-
-about me, quick'n'dirty
+Just a few things you might want to know about me, Oli Pfeffer.
