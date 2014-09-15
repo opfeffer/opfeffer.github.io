@@ -1,7 +1,6 @@
 (function($, d, w) {
-	//stupid helper
+	//simple helper
 	Handlebars.registerHelper('flatten', function(data) {
-		console.log(data);
 		return data.join(', ');
 	});
 
