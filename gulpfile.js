@@ -16,6 +16,7 @@ gulp.task('bower', function() {
 gulp.task('webserver', function() {
   gulp.src('build')
     .pipe(webserver({
+      host: '0.0.0.0',
       livereload: true,
       open: true
     }));
