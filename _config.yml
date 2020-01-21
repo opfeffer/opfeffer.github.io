@@ -1,0 +1,6 @@
+url: "https://opfeffer.com"
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Oliver Pfeffer" # the name of your site, e.g. ACME Corp.
+
+sass:
+  style: compressed

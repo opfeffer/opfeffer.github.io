@@ -1,0 +1,101 @@
+$hPadding: 25px;
+
+// color scheme: light
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+$borderColor: #ccc;
+$linkColor: #222;
+$paragraphColor: #777;
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: $paragraphColor;
+}
+
+p {
+  color: $paragraphColor;
+  line-height: 1.5em;
+}
+
+#wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 0 40px;
+}
+
+header {
+  padding: 40px 25px 0;
+
+  h3 {
+    font: {
+      weight: normal;
+      style: italic;
+      size: 0.9em;
+    }
+  }
+}
+
+main {
+  h2 {
+    margin: 40px 0 15px;
+    padding: 40px $hPadding 0;
+    border-top: 1px solid $borderColor;
+  }
+
+  h4 {
+    margin: 15px 0 0;
+    padding: 0 $hPadding;
+  }
+
+  p {
+    margin: 0;
+    padding: 0 $hPadding;
+  }
+}
+
+a,
+a:visited,
+a:active {
+  text-transform: capitalize;
+  color: $linkColor;
+  font-weight: bold;
+  padding: 0 5px 0 0;
+}
+
+// Dark Color Scheme
+
+@media (prefers-color-scheme: dark) {
+  $backgroundColor: #222;
+  $bodyColor: #f0f0f0;
+  $paragraphColor: #bbb;
+  $linkColor: #eee;
+
+  body {
+    background-color: $backgroundColor;
+    color: $bodyColor;
+  }
+
+  h3,
+  p {
+    color: $paragraphColor;
+  }
+
+  a,
+  a:visited,
+  a:active {
+    color: $linkColor;
+  }
+}
